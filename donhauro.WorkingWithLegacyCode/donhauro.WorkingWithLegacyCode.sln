@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "donhauro.WorkingWithLegacyCode.Console", "donhauro.WorkingWithLegacyCode.Console\donhauro.WorkingWithLegacyCode.Console.csproj", "{8CB6B257-BB55-4D4F-A943-025CB2EB29D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "donhauro.WorkingWithLegacyCode.Console001", "donhauro.WorkingWithLegacyCode.Console001\donhauro.WorkingWithLegacyCode.Console001.csproj", "{A2151970-6234-407F-AAC8-BBC703021270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTests", "ConsoleTests\ConsoleTests.csproj", "{D03EC4CF-2C56-4054-8F0E-6A9D759C15A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8CB6B257-BB55-4D4F-A943-025CB2EB29D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB6B257-BB55-4D4F-A943-025CB2EB29D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB6B257-BB55-4D4F-A943-025CB2EB29D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2151970-6234-407F-AAC8-BBC703021270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2151970-6234-407F-AAC8-BBC703021270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2151970-6234-407F-AAC8-BBC703021270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2151970-6234-407F-AAC8-BBC703021270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03EC4CF-2C56-4054-8F0E-6A9D759C15A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03EC4CF-2C56-4054-8F0E-6A9D759C15A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03EC4CF-2C56-4054-8F0E-6A9D759C15A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03EC4CF-2C56-4054-8F0E-6A9D759C15A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
