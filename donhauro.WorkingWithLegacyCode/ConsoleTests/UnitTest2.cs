@@ -13,10 +13,10 @@ namespace ConsoleTests
         {
             //Arrange
             var fakeDisplay = new FakeDisplay();
-            var TestTarget = new Sale(fakeDisplay);
+            var testTarget = new Sale(fakeDisplay);
 
             //Act
-            TestTarget.Scan(MilchBarcode);
+            testTarget.Scan(MilchBarcode);
 
             //Assert
             Assert.AreEqual(fakeDisplay.LastScan(), MilchBarcode);
