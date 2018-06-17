@@ -27,6 +27,7 @@ namespace ConsoleTests
     {
         private string LastBarcode;
 
+        //Sensing
         public string LastScan()
         {
             return LastBarcode;
