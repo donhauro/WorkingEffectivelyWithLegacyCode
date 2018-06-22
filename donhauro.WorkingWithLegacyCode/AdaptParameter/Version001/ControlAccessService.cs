@@ -1,4 +1,5 @@
-﻿using AdaptParameter.Common;
+﻿using System;
+using AdaptParameter.Common;
 
 namespace AdaptParameter.Version001
 {
@@ -14,13 +15,16 @@ namespace AdaptParameter.Version001
             SecurityTokenValidator = securityTokenValidator;
         }
 
-        public bool IsAuthorized(ControlAccessReaderDevice reader)
+        public bool IsAuthorized(IControlAccessReaderDevice reader)
         {
             var memberId = reader.GetMemberId();
-            var securityToken = reader.GetMemberId();
+            var securityToken = reader.GetHardwareToken();
+
+            Console.WriteLine("Access control is running...");
 
             var member = MemberRepoRespoitory.Get(memberId);
             return member != null && SecurityTokenValidator.IsValid(securityToken);
-        } 
+        }
+
     }
 }

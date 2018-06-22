@@ -6,7 +6,13 @@ namespace AdaptParameter.Common
     {
         public ControlAccessReaderDevice()
         {
-            throw new Exception("HardwareDectionError");
+            if (!HardwaredongleFound())
+                throw new Exception("HardwareDectionError");
+        }
+
+        private bool HardwaredongleFound()
+        {
+            return false;
         }
 
         public string GetMemberId()
